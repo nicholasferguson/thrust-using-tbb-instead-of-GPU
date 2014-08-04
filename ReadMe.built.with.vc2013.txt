@@ -33,6 +33,32 @@ as in this directory structure
 <some directory>/Example.1
 		This is the monte_carlo.u from thrust examples
 
+======================		
+Changes to cuda.v4.1
+======================
+<some directory>/cuda.v4.1
+added file: 
+include/thrust/iterator/detailbackend_iterator_spaces.h  ( why did I have to do this????.. )
+and added code:
+#elif THRUST_DEVICE_BACKEND == THRUST_DEVICE_SYSTEM_TBB
+typedef omp_device_space_tag  default_device_space_tag
+
+added code ( review if necessary...) to
+device_system.h
+host_system.h
+
+======================
+Preprocessors for Visual Studio 2013
+======================
+THRUST_DEVICE_SYSTEM=THRUST_DEVICE_SYSTEM_TBB
+THRUST_DEVICE_BACKEND=THRUST_DEVICE_SYSTEM_TBB
+======================
+Compiler optimization
+======================
+Optimization:  Maximum Speed(/02)
+  Otherwise most debug apps run too slow.
+  But cannot debug with this setting.
+  Good just to see its possible performance
 
 
 
