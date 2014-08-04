@@ -1,4 +1,5 @@
 Essentially this project should prove that cuda files can be tested with tbb, then moved into cuda env.
+I could not find this type of example...so I developed one.
 
 	Example.1 is an exe  ( it runs a Monte Carlo simulation to calc pi...included as an exmple with Thrust files)
 		This exe during build pulls in Thrust.Test.lib ... a static lib with thrust files. 
