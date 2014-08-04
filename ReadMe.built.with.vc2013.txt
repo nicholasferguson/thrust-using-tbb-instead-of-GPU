@@ -1,5 +1,18 @@
 Essentially this project should prove that cuda files can be tested with tbb, then moved into cuda env.
 
+	Example.1 is an exe  ( it runs a marco polo simulation to calc pi...included as an exmple with Thrust files)
+		This exe during build pulls in Thrust.Test.lib ... a static lib with thrust files. 
+		Thrust files are in CUDA toolkit.
+		Thrust.Test.lib pulls in tbb libs.
+		
+		TBB is a cross platform parallel lib from INTEL.
+		https://www.threadingbuildingblocks.org/
+
+		Thrust files are designed to work with parallel backbone devices of either 
+			- CUDA
+			- OMP
+			- TBB
+
 This example works with cudatoolkit and thrust, using tbb only.
 
 Built using Visual Studio Express 2013, with VC++ Compiler Nov 2103 CTP ( increased c++11 friendly)
