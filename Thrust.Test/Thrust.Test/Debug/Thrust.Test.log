@@ -1,0 +1,14 @@
+﻿Build started 8/3/2014 8:09:45 PM.
+     1>Project "C:\work.interviews\Sumitomo.Option.MM\GPU.Programming\Monte.Carlo\github\thrust_with_tbb\Thrust.Test\Thrust.Test\Thrust.Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual C++ Compiler Nov 2013 CTP\bin\CL.exe /c /I. /I..\..\cuda.v4.1\include /I..\..\\tbb\tbb42_20131118oss\include /nologo /W0 /WX- /O2 /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D THRUST_DEVICE_SYSTEM=THRUST_DEVICE_SYSTEM_TBB /D THRUST_DEVICE_BACKEND=THRUST_DEVICE_SYSTEM_TBB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(C:\work.interviews\Sumitomo.Option.MM\GPU.Programming\Monte.Carlo\github\thrust_with_tbb\Thrust.Test\Debug\Thrust.Test.lib) does not match the Library's OutputFile property value (C:\work.interviews\Sumitomo.Option.MM\GPU.Programming\Monte.Carlo\github\thrust_with_tbb\Thrust.Test\lib\Thrust.Test.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual C++ Compiler Nov 2013 CTP\bin\Lib.exe /OUT:"..\lib\Thrust.Test.lib" /NOLOGO Debug\stdafx.obj
+         Thrust.Test.vcxproj -> C:\work.interviews\Sumitomo.Option.MM\GPU.Programming\Monte.Carlo\github\thrust_with_tbb\Thrust.Test\Debug\Thrust.Test.lib
+     1>Done Building Project "C:\work.interviews\Sumitomo.Option.MM\GPU.Programming\Monte.Carlo\github\thrust_with_tbb\Thrust.Test\Thrust.Test\Thrust.Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

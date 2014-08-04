@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=CTP_Nov2013:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Debug|Win32|C:\work.interviews\Sumitomo.Option.MM\GPU.Programming\Monte.Carlo\github\thrust_with_tbb\Thrust.Test\|
